@@ -9,7 +9,7 @@ length=${#lines[@]}
 # Infinite loop to output random doom metal line every 5-10 minutes
 while true
 do
-  # Set the random seed for improved performance
+  # Set the random seed
   RANDOM_SEED=$(shuf -i 0-32767 -n 1)
 
   # Generate a random index
